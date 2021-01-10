@@ -10,7 +10,7 @@ docker image pull <image_name>:<image_version/tag>
 
 3. List out docker images from your local system
 ```sh
-docker image ls
+docker image ls or docker images
 ```
 
 4. Create/run/start a docker container from image
@@ -18,6 +18,7 @@ docker image ls
 docker run -d --name <container_Name> <image_name>:<image_version/tag>
 
 d - run your container in back ground (detached)
+-it - run in interactive mode
 ```
 
 5. Expose your application to host server
